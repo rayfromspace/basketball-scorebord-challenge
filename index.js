@@ -29,7 +29,3 @@ function add3pointG() {
     guestScore.textContent = score += threePoint
 }
 
-let winner = document.getElementById("winner")
-if (homeScore > guestScore) {
-    winner.textContent = homeScore
-}
